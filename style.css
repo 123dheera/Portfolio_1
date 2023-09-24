@@ -1,0 +1,32 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+/* Veriable css */
+:root {
+    --header-height: 3.5rem;
+}
+
+/* colors */
+--first-color: hsl(44, 98%, 50%);
+--black-color: hsl(0, 0%, 0%);
+--black-color-light: hsl();
+--white-color: hsl(
+
+
+/* Font and Typography */
+--body-font: 'Bai Jamjuree', sans-serif;
+
+/* font weight */
+
+
+/* z index */
+
+/* responsive typography */
+
+/* base */
+
+/* theme */
+
+/* variable dark theme */
+
+/* reusable css classes */
