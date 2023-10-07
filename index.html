@@ -3,43 +3,196 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Portfolio</title>
-
-    <!-- FEVICON -->
-    <link rel="shortcut icon" href="images/IMG_20230711_104239.jpg" type="image/x-icon">
-
-    <!-- REMIXICONS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin=""> 
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio Website | Dhiraj Prajapat</title>
+    <link rel="icon" href="./images/user.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
   </head>
   <body>
-    <!-- HEADER -->
-    <header>
-      <nav class="nav container">
-        <div>
-            <a href="#" class="nav__logo"></a>
-            <li class="nav__item"><a href="#home">Home</a></li>
-            <li class="nav__item"><a href="#introduction">Introduction</a></li>
-            <li class="nav__item"><a href="#educational qualification">Educational Qualification</a></li>
-            <li class="nav__item"><a href="#skills & certificates">Skills & Certificates</a></li>
-            <li class="nav__item"><a href="#about family">About Family</a></li>
-            <li class="nav__item"><a href="#contect me">Contact me</a></li>
-            <li class="nav__item"><a href="#about">About</a></li>
-            <!-- <!-  Close button  ->
-            <div class="nav__close" id="nav__close">
-                <i class="ri-close-line"></i>
-            </div> -->
+    <!-- home page of portfolio -->
+    <section id="Home">
+      <div class="container">
+        <div class="box">
+          <!-- navbar of home page -->
+          <nav>
+            <a href="" class="logo">Portfolio</a>
+            <ul>
+              <li><a href="#Home">Home</a></li>
+              <li><a href="#Services">Services</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact-info">Contect</a></li>
+            </ul>
+          </nav>
+          <div class="content">
+            <div class="section-1">
+              <h1>Hi, I am Dhiraj</h1>
+              <h3>Frontend Web Developer</h3>
+              <p>
+                Only 6 month Experience in web design & development knowledge,
+                producing quality work
+              </p>
+              <a href="#" class="btn">Download cv</a>
+            </div>
+            <div class="section-2">
+              <img src="images/IMG_20230711_104239-removebg-preview.png" />
+            </div>
+            <!-- social links -->
+            <div class="social">
+              <a
+                href="https://www.facebook.com/dheerajprajapat701"
+                target="_blank"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="https://www.instagram.com/dheeraj_4_you" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://t.me/Dheeraj4you" target="_blank"
+                ><i class="fa-brands fa-telegram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/dheeraj-prajapat-516574234"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
 
-        <!-- <div class="nav__buttons">
-            <!- toggle button ->
-            <div class="nav__toggle" id="nav__toggle"></div>
-            <i class="ri-menu-4-line"></i>
-        </div> -->
-      </nav>
-    </header>
+    <!-- next page service section -->
+
+    <section id="Services">
+      <h1 id="head">Our Services</h1>
+
+      <!-- frist card in service page -->
+
+      <div class="card1 containerbox">
+        <img src="./images/web.png" alt="img" />
+        <div class="cards">
+          <h1>HTML & CSS Development</h1>
+          <p>
+            Enterprise-class websites need consistent colors, fonts, and design
+            to match the organization's branding guidelines. Our front-end
+            developers are experts at designing responsive websites, with CSS at
+            the core of front end development alongside JavaScript and HTML.
+          </p>
+          <div class="hor">
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              target="_blank"
+              class="contentbtn"
+              >Click me</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- second card in service page -->
+
+      <div class="card1 containerbox">
+        <img src="./images/javascript.png" alt="img" />
+        <div class="cards">
+          <h1>JavaScript Development</h1>
+          <p>
+            JavaScript frameworks sit at the heart of any modern website. Our
+            JavaScript developers use their extensive experience with core
+            JavaScript development and the newest frameworks and libraries to
+            build dynamic and responsive websites. We are also known as the
+            JavaScript developers.
+          </p>
+          <div class="hor">
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/javascript"
+              target="_blank"
+              class="contentbtn"
+              >Click me</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- third card in service page -->
+
+      <div class="card1 containerbox">
+        <img src="./images/bootstrap.png" alt="img" />
+        <div class="cards">
+          <h1>PSD to Bootstrap Services</h1>
+          <p>
+            Our front-end developers convert PSD, Sketch, Ai, and Adobe XD files
+            into pixel-perfect standards that are compliant with
+            HTML5/CSS3/Bootstrap3/4 templates. Bootstrap is very Useful for
+            developers and Nowadays all the web developers are familiars with
+            also new frameworks.
+          </p>
+          <div class="hor">
+            <a
+              href="https://getbootstrap.com/docs/5.0/getting-started/introduction/"
+              target="_blank"
+              class="contentbtn"
+              >Click me</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about me section starts here :) -->
+
+    <section id="about">
+      <div class="display">
+          <div class="abt1">
+             <img id="myimg"
+              src="./images/IMG_20230525_000359[1]-PhotoRoom.png-PhotoRoom.png" alt="img"/>
+          </div>
+          <div id="aboutme">
+           
+            <p id="P">A <br> &nbsp; little bit about me</p><br>
+            <p>I am a Frontend Developer</p><br>
+            <p>
+              Hello! I'm Dhiraj, a passionate and motivated frontend developer
+              with a strong foundation in computer science and engineering.
+              recently graduated with a B.Tech in Computer Science and 
+              Engineering, and I am excited to embark on a career in web 
+              development. <br> During my academic journey, I gained a solid 
+              understanding of programming languages like HTML, CSS, and 
+              JavaScript, which form the core of frontend development. I also
+              had the opportunity to work on various projects that honed my
+              problem-solving skills and creative thinking.
+              <br>
+              <br>As a frontend developer, I am proficient in: 
+              <li>HTML5,CSS3, and JavaScript </li>
+              <li>Responsive web design and mobile-first development </li>
+              <li>Frontend frameworks like React and Angular</li>
+              <li>Version control with Git</li>
+              <li>Collaboration and teamwork</li>
+            </p>
+          </div>
+      </div>
+    </section>
+    
+    <!--  contact us -->
+    <section id="contact-info">
+ 
+          <div class="wrapper">
+            <form class="form">
+              <div class="pageTitle title">Contact us</div>
+              <div class="secondaryTitle title">Please fill this form to message us.</div>
+              <input type="text" class="name formEntry" placeholder="Name" />
+              <input type="text" class="email formEntry" placeholder="Email"/>
+              <textarea class="message formEntry" placeholder="Message"></textarea>
+              <button class="submit formEntry" onclick="thanks()">Submit</button>
+            </form>
+          </div>
+      
+      <address id="add">
+          A29 Dhiraj Nagar Near Yadav Showroom, Robot Square<br>
+          Indore, 452001<br>
+          Phone: <a href="tel:1234567890">9179721401</a><br>
+          Email: <a href="mailto:prajapatdheeraj@gmail.com">prajapatdheeraj@gmail.com</a>
+      </address>
+  </section>
   </body>
 </html>
