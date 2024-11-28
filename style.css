@@ -140,6 +140,7 @@ html{
 .content .section-2 {
     width: 60%;
     position: relative;
+    padding-bottom: 5%;
 }
 
 .content .section-2::after{
@@ -153,8 +154,8 @@ html{
 
 
 .content .section-2 img{
-    width: 495px;
-    height: 472px;
+    width: 475px;
+    height: 450px;
 }
 
 .content .social {
